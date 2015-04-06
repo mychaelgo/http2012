@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face { font-family: MyRiadPro; src: url('MyriadPro-Regular.otf'); } 
+
+
+body{
+	margin-top:0px;
+	background:url('images/back.jpg');
+	background-attachment:fixed;
+	background-position:center;
+}
+#regis-left{
+	margin-left:-20px;
+	
+}
+
+
+#register{
+	position:absolute;
+	margin-left:900px;
+	background:url(images/regis.png);
+	width:200px;
+	height:150px;
+}
+
+
+#wrapper{
+	width:1024px;
+	height:auto;
+	margin:auto;
+}
+
+#header{
+	background:url(images/head.jpg);
+	height:250px;
+}
+#menu{
+	margin:10px;
+	padding:5px;
+	height:100px;
+}
+
+#menuList{
+	background:#db36ff;
+	float:left;
+	border-right:solid 1px;
+	height:75px;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:40px;
+	padding:20px;
+}
+
+
+
+#content{
+	width:1024px;
+	margin:auto;
+	background:#FFFFFF;
+	height:auto;
+	min-height:600px;
+	font-family: "MyRiadPro";
+	font-size:15px;
+}
+#left{
+	background:#fff799;
+	width:600px;
+	height:auto;
+	float:left;
+	margin:20px;
+	padding:10px;
+	
+}
+
+#right{
+	float:right;	
+	width:300px;
+	margin-right:-70px;
+	height:auto;
+	min-height:1050px;
+}
+
+#caption{
+	background:#25a4e8;
+	color:#FFFFFF;
+	font-size:30px;
+	text-align:center;
+	width:250px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+#clear{clear:both;}
+
+#footer{
+	text-align:center;
+}
+
+
+
+#leftHand{
+	
+	bottom:0px;
+	width:110px;
+	height:200px;
+	position:fixed;
+	background:url(images/hand2.png) no-repeat;
+}
+
+#rightHand{
+	bottom:0px;
+	right:0px;
+	width:110px;
+	height:200px;
+	position:fixed;
+	background:url(images/hand.png) no-repeat;
+}
+
+#cp{
+	float:right;
+	position:absolute;
+	margin-top:-170px;
+	margin-left:770px;
+}
